@@ -1,0 +1,28 @@
+.nxn-header {
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #dcdde1;
+  background-color: #f4f6f8;
+  text-align: left;
+}
+
+.nxn-title {
+  font-size: 2rem;
+  color: #34495e;
+  margin-bottom: 0.3rem;
+}
+
+.nxn-subtitle {
+  font-size: 1rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.nxn-footer {
+  padding: 1rem;
+  border-top: 1px solid #dcdde1;
+  background-color: #f4f6f8;
+  font-size: 0.9rem;
+  color: #95a5a6;
+  text-align: left;
+  margin-top: 3rem;
+}
