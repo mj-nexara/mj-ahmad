@@ -1,0 +1,8 @@
+ls "C:\Users\quran\OneDrive\Pictures\Camera Roll\2023" -File | Sort-Object LastWriteTime | Select-Object -ExpandProperty Name | Out-File "C:\Users\quran\OneDrive\Pictures\Camera Roll\2023\vid-list.txt"
+
+. "C:\MJ-Ahmad\quraner-fariwala\.nexara\infra\scripts\gallery\Resize-BindingImagesFromList.ps1"
+
+C:\Users\quran\OneDrive\Pictures\Camera Roll\image-list.txt
+
+cover
+C:\MJ-Ahmad\quraner-fariwala\public\images\carton\carton-image-list.txt

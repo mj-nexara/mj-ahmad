@@ -1,0 +1,42 @@
+/* src/styles/Header.css */
+
+.nxn-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f4f6f8;
+  border-bottom: 1px solid #dcdde1;
+}
+
+.nxn-logo h1 {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin: 0;
+}
+
+.nxn-tagline {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-top: 0.2rem;
+  font-style: italic;
+}
+
+.nxn-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nxn-nav li a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nxn-nav li a:hover {
+  color: #5c6bc0;
+}

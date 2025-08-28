@@ -1,16 +1,23 @@
-import { useTranslation } from 'react-i18next'
+import React from 'react';
+import reactLogo from '../assets/logo.png'
+import viteLogo from '/mjahmad.jpg'
+import '../App.css'
 
-function Home() {
-  const { t } = useTranslation()
+const Home = () => (
+ <>
+  <div>
+        <a href="" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+        <h3>Research • Printing • Distribution</h3>
+        <h3> of Holy Quran</h3>
+    <h2>আলো যেখানে থেমে থাকে না</h2>
+    <p>Quraner Fariwala is a mission of truth, dignity, and spiritual clarity. Welcome to the legacy.</p>
+  </div>
+ </>
+);
 
-  return (
-    <main style={{ padding: '2rem', whiteSpace: 'pre-line', lineHeight: '1.8' }}>
-      <h2 style={{ textAlign: 'center' }}>{t('title')}</h2>
-      <section style={{ marginTop: '2rem', borderTop: '1px solid #ccc', paddingTop: '1rem' }}>
-        <p>{t('warning')}</p>
-      </section>
-    </main>
-  )
-}
-
-export default Home
+export default Home;

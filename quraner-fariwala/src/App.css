@@ -77,3 +77,11 @@
   box-shadow: 0 0 4px rgba(0,0,0,0.05);
   text-align: left;
 }
+
+.doc {
+  text-align: left;
+}
+
+.footer {
+  text-align: center;
+}
